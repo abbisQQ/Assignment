@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.babis.theodorou.example.springresth2.entity.Employee;
 import com.babis.theodorou.example.springresth2.service.EmployeeService;
 
-
+//The @Controller annotation indicates that a particular class serves the role of a controller. 
+//The @Controller annotation acts as a stereotype for the annotated class, indicating its role.
 @RestController
 public class BasicRestController {
 
@@ -32,7 +33,7 @@ public List<Employee> getEmployees(){
 	return employees;
 }
 
-
+//@PathVariable used to fetch the value from url 
 @GetMapping("/api/employees/{employeeId}")
 public Employee getEmployee(@PathVariable(name="employeeId")Long employeeId) {
 	return employeeService.getEmployee(employeeId);

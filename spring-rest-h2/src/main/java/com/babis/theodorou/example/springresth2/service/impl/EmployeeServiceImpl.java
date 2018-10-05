@@ -10,6 +10,8 @@ import com.babis.theodorou.example.springresth2.entity.Employee;
 import com.babis.theodorou.example.springresth2.repository.EmployeeRepository;
 import com.babis.theodorou.example.springresth2.service.EmployeeService;
 
+
+//@Services hold business logic and call method in repository layer. 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
 
@@ -27,6 +29,9 @@ public class EmployeeServiceImpl implements EmployeeService{
 		return employees;
 	}
 
+	
+	//Optional in java.util package. It is used to represent a value is present or absent. The main advantage of this new construct is that No more too many null checks and NullPointerException.
+	//It avoids any runtime NullPointerExceptions and supports us in developing clean and neat Java APIs or Applications.
 	@Override
 	public Employee getEmployee(Long employeeId) {
 		Optional<Employee> optEmp = employeeRepository.findById(employeeId);
