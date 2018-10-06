@@ -10,7 +10,7 @@ It's very simple to run the application you hust need to follow the steps below.
 4. Run the class SpringRestH2Application as java application
 !Keep in mind you need port 8080 for h2 database!
 ### Prerequisites
-What things you need to install the software and how to install them.
+What things you need to install the software and how to install them?
 You just need eclipse nothing else.
 
 ### How to test the functionality.
