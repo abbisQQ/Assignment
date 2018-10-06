@@ -13,7 +13,7 @@ It's very simple to run the application you hust need to follow the steps below.
 What things you need to install the software and how to install them.
 You just need eclipse nothing else.
 
-How to test the functionality.
+### How to test the functionality.
 After you run the program you can check the database in the link below.
 http://localhost:8080/h2
 The EMPLOYEE table should be created automatic.
