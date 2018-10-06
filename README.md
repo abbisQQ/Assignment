@@ -1,5 +1,5 @@
 # PublicSoft Assignment
-This is a assignment-project, we need to create a rest api using spring boot.
+In this is a assignment-project we need to create a rest api using spring boot.
 The api must have all CRUD methods plus a way to fetch specific data.
 
 ## Getting Started
