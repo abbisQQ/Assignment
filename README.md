@@ -15,7 +15,7 @@ You just need eclipse nothing else.
 
 ### How to test the functionality.
 After you run the program you can check the database in the following link.
-http://localhost:8080/h2\n
+http://localhost:8080/h2 .
 The EMPLOYEE table should be created automatically.
 In this project i have used Swagger. Swagger makes it easy to work with the api endpoints.
 All you have to do is go to: http://localhost:8080/swagger-ui.html and clink on basic-rest-controller.
