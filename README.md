@@ -19,4 +19,4 @@ http://localhost:8080/h2 .
 The EMPLOYEE table should be created automatically.
 In this project i have used Swagger. Swagger makes it easy to work with the api endpoints.
 All you have to do is go to: http://localhost:8080/swagger-ui.html and clink on basic-rest-controller.
-There you can use the api with ease(keep in mind that the ID fild is autoincrement so you dont have to type anything in it.
+There you can use the api with ease(keep in mind that the ID field is autoincrement so you dont have to type anything in it.
